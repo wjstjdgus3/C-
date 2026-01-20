@@ -1,7 +1,7 @@
 
-// 22 ÆäÀÌÁö
+// 22 í˜ì´ì§€
 
-// ¹®Á¦ 6
+// ë¬¸ì œ 6
 
 //#include <stdio.h>
 //#include <stdlib.h>
@@ -11,7 +11,7 @@
 //{
 //	srand((unsigned int)time(NULL));
 //	int gauge = (rand() % 100);
-//	//printf("Á¡¼ö : ");
+//	//printf("ì ìˆ˜ : ");
 //	//scanf("%d", &gauge);
 //	if (gauge >= 45 && gauge <= 55)
 //	{
@@ -28,7 +28,7 @@
 //	return 0;
 //}
 
-// ¹®Á¦ 7
+// ë¬¸ì œ 7
 
 //#include <stdio.h>
 //
@@ -39,22 +39,22 @@
 //	scanf("%d", &input);
 //	if (input %3 == 0)
 //	{
-//		printf("\ninputÀº 3ÀÇ ¹è¼öÀÔ´Ï´Ù.");
+//		printf("\ninputì€ 3ì˜ ë°°ìˆ˜ì…ë‹ˆë‹¤.");
 //		
 //		if (input % 6 == 0)
 //		{
-//			printf("\ninputÀº 6ÀÇ ¹è¼öÀÔ´Ï´Ù.");
+//			printf("\ninputì€ 6ì˜ ë°°ìˆ˜ì…ë‹ˆë‹¤.");
 //		}
 //		if (input % 9 == 0)
 //		{
-//			printf("\ninputÀº 9ÀÇ ¹è¼öÀÔ´Ï´Ù.");
+//			printf("\ninputì€ 9ì˜ ë°°ìˆ˜ì…ë‹ˆë‹¤.");
 //		}
 //	}
 //	return 0;
 //}
 
 //-----------------------------------------
-// 23 ÆäÀÌÁö 
+// 23 í˜ì´ì§€ 
 
 //#include <stdio.h>
 //
@@ -64,7 +64,7 @@
 //	switch(command)
 //	{
 //		case 'i':
-//			printf("¾ÆÀÌÅÛÃ¢ ¿ÀÇÂ\n");
+//			printf("ì•„ì´í…œì°½ ì˜¤í”ˆ\n");
 //	}
 //	return 0;
 //}
@@ -78,9 +78,9 @@
 //	switch (command)
 //	{
 //	case 'i':
-//		printf("¾ÆÀÌÅÛÃ¢ ¿ÀÇÂ\n");
+//		printf("ì•„ì´í…œì°½ ì˜¤í”ˆ\n");
 //	case 'm':
-//		printf("ÁöµµÃ¢ ¿ÀÇÂ\n");
+//		printf("ì§€ë„ì°½ ì˜¤í”ˆ\n");
 //	}
 //	return 0;
 //}
@@ -93,14 +93,14 @@
 //	char command = 'm';
 //	switch (command)
 //	{
-//	case 'i': printf("¾ÆÀÌÅÛÃ¢ ¿ÀÇÂ\n");
-//	case 'm': printf("ÁöµµÃ¢ ¿ÀÇÂ\n");
+//	case 'i': printf("ì•„ì´í…œì°½ ì˜¤í”ˆ\n");
+//	case 'm': printf("ì§€ë„ì°½ ì˜¤í”ˆ\n");
 //	}
 //	return 0;
 //}
 
 //--------------------------------
-// 24 ÆäÀÌÁö
+// 24 í˜ì´ì§€
 
 //#include <stdio.h>
 //
@@ -109,9 +109,9 @@
 //	char command = 'm';
 //	switch (command)
 //	{
-//	case 'i': printf("¾ÆÀÌÅÛÃ¢ ¿ÀÇÂ\n");
-//		break; //break·Î ¸ØÃã
-//	case 'm': printf("ÁöµµÃ¢ ¿ÀÇÂ\n");
+//	case 'i': printf("ì•„ì´í…œì°½ ì˜¤í”ˆ\n");
+//		break; //breakë¡œ ë©ˆì¶¤
+//	case 'm': printf("ì§€ë„ì°½ ì˜¤í”ˆ\n");
 //	}
 //	return 0;
 //}
@@ -122,15 +122,15 @@
 //int main()
 //{
 //	char command ;
-//	printf("Ä¿¸Çµå¸¦ ÀÔ·ÂÇÏ¼¼¿ä:");
+//	printf("ì»¤ë§¨ë“œë¥¼ ì…ë ¥í•˜ì„¸ìš”:");
 //	scanf("%c", &command);
 //	switch(command)
 //	{
-//	case 'i': printf("¾ÆÀÌÅÛÃ¢ ¿ÀÇÂ\n");
-//		break; //break·Î ¸ØÃã
-//	case 'm': printf("ÁöµµÃ¢ ¿ÀÇÂ\n");
+//	case 'i': printf("ì•„ì´í…œì°½ ì˜¤í”ˆ\n");
+//		break; //breakë¡œ ë©ˆì¶¤
+//	case 'm': printf("ì§€ë„ì°½ ì˜¤í”ˆ\n");
 //		break;
-//	default: printf("ÁöÁ¤µÈ ±â´ÉÀÌ ¾ø½À´Ï´Ù.\n");
+//	default: printf("ì§€ì •ëœ ê¸°ëŠ¥ì´ ì—†ìŠµë‹ˆë‹¤.\n");
 //	}
 //	return 0;
 //}
@@ -151,25 +151,20 @@
 //}
 
 
-//¹®Á¦ 1
+//ë¬¸ì œ 1
 
 #include <stdio.h>
 
 int main()
 {
-	int input1;
-	printf("input1 :");
-	scanf("%d", &input1);
+    int input1, input2;
+    char oper;
 
-	int oper;
-	printf("oper :");
-	scanf("%d", &oper);
+    printf("ë‘ ì •ìˆ˜ì™€ ì—°ì‚°ìë¥¼ ì…ë ¥í•˜ì„¸ìš” (ì˜ˆ: 10 + 5):\n");
 
-	char input2;
-	printf("input2 :");
-	scanf("%c", &input2);
+    scanf("%d %c %d", &input1, &oper, &input2);
 
-	//ÆäÀÌÁö 13 Âü°í
+	//í˜ì´ì§€ 13 ì°¸ê³ 
 
 	switch(command)
 	{
@@ -181,3 +176,4 @@ int main()
 	}
 	return 0;
 }
+
