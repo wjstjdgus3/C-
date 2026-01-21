@@ -166,7 +166,7 @@ int main()
 
 	//페이지 13 참고
 
-	switch(command)
+	switch(oper)
 	{
 	case '+': printf("%d + %d=%d", input1, input2, input1 + input2); break;
 	case '-': printf("%d - %d=%d", input1, input2, input1 - input2); break;
@@ -176,4 +176,5 @@ int main()
 	}
 	return 0;
 }
+
 
