@@ -1,5 +1,5 @@
 
-// ¹éÁØ ¹®Á¦
+// ë°±ì¤€ ë¬¸ì œ
 
 //#include <stdio.h>
 //int main()
@@ -33,9 +33,9 @@
 //}
 
 
-// 24ÆäÀÌÁö
+// 24í˜ì´ì§€
 
-//¹®Á¦ 1
+//ë¬¸ì œ 1
 
 //#include <stdio.h>
 //
@@ -44,10 +44,10 @@
 //	int in1, in2;
 //	char oper;
 //
-//	printf("°è»ê ÀÔ·Â °ª : ");
+//	printf("ê³„ì‚° ì…ë ¥ ê°’ : ");
 //	scanf("%d %c %d", &in1, &oper, &in2);
 //
-//	//ÆäÀÌÁö 13 Âü°í
+//	//í˜ì´ì§€ 13 ì°¸ê³ 
 //
 //	switch (oper)
 //	{
@@ -60,7 +60,7 @@
 //	return 0;
 //}
 
-// ¹®Á¦ 2
+// ë¬¸ì œ 2
 
 // 1=January | 2=February | 3=March | 4=April | 5=May | 6=June | 
 // 7=July | 8=August | 9=September | 10=October | 11=November | 12=December
@@ -69,7 +69,7 @@
 //int main()
 //{
 //	int in;
-//	printf("¸î¿ù? ");
+//	printf("ëª‡ì›”? ");
 //	scanf("%d", &in);
 //
 //	switch (in)
@@ -91,24 +91,24 @@
 //}
 
 //----------------------------------------
-// 25 ÆäÀÌÁö
+// 25 í˜ì´ì§€
 
 #include <stdio.h>
 int main()
 {
 	char command;
-	printf("<, a ¿ŞÂÊ ÀÌµ¿ \n");
-	printf(">, d ¿À¸¥ÂÊÀÌµ¿ \n");
+	printf("<, a ì™¼ìª½ ì´ë™ \n");
+	printf(">, d ì˜¤ë¥¸ìª½ì´ë™ \n");
 	scanf("%c", &command);
 	switch(command)
 	{
 case '<' :
 case 'a' :
-	// case¸¦¿©·¯°³ ½á¼­ °°Àº ÄÚµå ½ÇÇà °¡´É 
-	printf("¿ŞÂÊÀ¸·Î ÀÌµ¿ÇÕ´Ï´Ù.\n");
+	// caseë¥¼ì—¬ëŸ¬ê°œ ì¨ì„œ ê°™ì€ ì½”ë“œ ì‹¤í–‰ ê°€ëŠ¥ 
+	printf("ì™¼ìª½ìœ¼ë¡œ ì´ë™í•©ë‹ˆë‹¤.\n");
 	break;
 case '>': case 'd':
-	printf("¿À¸¥ÂÊÀ¸·Î ÀÌµ¿ÇÕ´Ï´Ù.\n");
+	printf("ì˜¤ë¥¸ìª½ìœ¼ë¡œ ì´ë™í•©ë‹ˆë‹¤.\n");
 	break;
 	}
 	return 0;
