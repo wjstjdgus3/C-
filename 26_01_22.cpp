@@ -127,41 +127,40 @@
 #include <stdio.h>
 int main()
 {
+	int Appetizer;
+	printf("Appetizer : 1.캐비어 2.샐러드 3.푸아그라 \n");
+	scanf("%d", &Appetizer);
+	int MainDish;
+	printf("MainDish : 1.스테이크 2.생선요리 3.양갈비 \n");
+	scanf("%d", &MainDish);
+	int Dessert;
+	printf("Dessert : 1.케익 2.아이스크림 3.초콜릿무스 \n");
+	scanf("%d", &Dessert);
 
-		int number;
-		printf("1.캐비어 2.샐러드 3.푸아그라 \n");
-		scanf("%d", &number);
+	char app = "";
+	char main = "";
+	char des = "";
 
-		printf("1.스테이크 2.생선요리 3.양갈비 \n");
-		scanf("%d", &number);
-
-		printf("1.케익 2.아이스크림 3.초콜릿무스 \n");
-		scanf("%d", &number);
-
-
-	switch (menu)
+	switch (Appetizer)
 	{
-	case 1:
+	case 1: app = "캐비어"; break;
+	case 2: app = "샐러드"; break;
+	case 3: app = "푸아그라"; break;
+	}
+	switch (MainDish)
 	{
-		printf("주문한 음식은", &number);
-		printf("입니다");
-		break;
+	case 1: main = "스테이크"; break;
+	case 2: main = "생선요리"; break;
+	case 3: main = "양갈비"; break;
 	}
-	case 2:
+	switch (Dessert)
 	{
-		int number;
-		printf("주문한 음식은");
-		printf("%d", number);
-		printf("입니다");
-		break;
+	case 1: des = "케익"; break;
+	case 2: des = "아이스크림"; break;
+	case 3: des = "초콜릿무스"; break;
 	}
-	case 3:
-	{
-		int number;
-		printf("주문한 음식은", &number);
-		printf("입니다");
-		break;
-	}
-	}
+	
+	printf("주문한 음식은 %s, %s, %s 입니다\n",app,main,des);
 	return 0;
 }
+
