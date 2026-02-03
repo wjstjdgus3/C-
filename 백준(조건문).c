@@ -1,12 +1,11 @@
 
-// µŒºˆ ∫Ò±≥«œ±‚ 
+// ÎëêÏàò ÎπÑÍµêÌïòÍ∏∞ 
 
 //#include <stdio.h>
 //
 //int main()
 //{
 //	int A, B;
-//	printf("  ");
 //	scanf("%d %d", &A, &B);
 //	if (A > B)
 //	{
@@ -25,14 +24,13 @@
 
 
 //------------------------------
-//Ω√«Ë º∫¿˚
+//ÏãúÌóò ÏÑ±Ï†Å
 
 //#include <stdio.h>
 //
 //int main()
 //{
 //	int A;
-//	printf("Ω√«Ë º∫¿˚ :");
 //	scanf("%d", &A);
 //	if (90 <= A && A <= 100)
 //	{
@@ -59,7 +57,7 @@
 
 
 //------------------------------
-// ¿±≥‚
+// Ïú§ÎÖÑ
 
 //#include <stdio.h>
 //
@@ -69,69 +67,102 @@
 //    scanf("%d", &year);
 //    if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
 //    {
-//        printf("1\n");
+//        printf("1");
 //    }
 //    else
 //    {
-//        printf("0\n");
+//        printf("0");
 //    }
 //    return 0;
 //}
 
-
-//-----------------------------
-//ø¿∫Ï
+//---------------------------------------------------
+//ÏÇ¨Î∂ÑÎ©¥
 
 //#include <stdio.h>
 //
+//int main()
+//{
+//    int A, B;
+//    scanf("%d\n", &A);
+//    scanf("%d", &B);
+//
+//	if (0 <= A && B >= 0)
+//	{
+//		printf("1");
+//	}
+//	else if (0 >= A && B >= 0)
+//	{
+//		printf("2");
+//	}
+//	else if (0 >= A && B <= 0)
+//	{
+//		printf("3");
+//	}
+//	else
+//	{
+//		printf("4");
+//	}
+//    return 0;
+//}
+
+//-------------------------------------
+// ÏïåÎûå ÏãúÍ≥Ñ
+
+//#include <stdio.h>
+//int main()
+//{
+//	int A;
+//	int B;
+//	scanf("%d %d", &A, &B);
+//
+//	int total = (A + 24) * 60 + B - 45;
+//
+//	int H = total / 60;
+//	int M = total % 60;
+//
+//
+//	int day = H/24;
+//	H = H % 24;
+//
+//	printf("%d %d", H, M);
+//	return 0;
+//}
+
+//-----------------------------
+//Ïò§Î∏ê
+
+//#include <stdio.h>
 //int main()
 //{
 //	int A, B, C;
 //	scanf("%d %d", &A, &B);
 //	scanf("%d", &C);
 //
-//	int total = A * 60 + B + C;
+//	int total = (A +24) * 60 + B + C;
 //
 //	int H = total / 60;
 //	int M = total % 60;
+//	
+//	int day = H/24;
+//	H = H % 24;
 //
-//	printf("%d %d\n", H, M);
+//	printf("%d %d", H, M);
 //	return 0;
 //}
 
 //--------------------------------------------
-// ¡÷ªÁ¿ß 
+// Ï£ºÏÇ¨ÏúÑ 
 
-//#include <stdio.h>
-//
-//int main() 
-// {
-//    int a, b, c;
-//    int reward = 0;
-//
-//    scanf("%d %d %d", &a, &b, &c);
-//
-//    if (a == b && b == c) 
-//    {
-//        reward = 10000 + a * 1000;
-//    }
-//    else if (a == b || a == c) 
-//    {
-//        reward = 1000 + a * 100;
-//    }
-//    else if (b == c) 
-//    {
-//        reward = 1000 + b * 100;
-//    } 
-//    else 
-//    {
-//    int max = a;
-//    if (b > max) max = b;
-//    if (c > max) max = c;
-//
-//        reward = max * 100;
-//    }
-//    printf("%d\n", reward);
-//
-//    return 0;
-//}
+#include <stdio.h>
+
+int main() 
+ {
+    int a, b, c;
+    int  = 0;
+
+    scanf("%d %d %d", &a, &b, &c);
+
+    if (a == b && b == c) 
+    {
+
