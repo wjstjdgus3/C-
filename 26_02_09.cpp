@@ -1,4 +1,4 @@
-// 30ÆäÀÌÁö ¹®Á¦ 6¹ø
+// 30í˜ì´ì§€ ë¬¸ì œ 6ë²ˆ
 
 #include <stdio.h>
 int main()
@@ -6,33 +6,36 @@ int main()
 	int input, total = 0;
 	int player = 0;
 
-	while (1)
+	while (total < 31)
 	{
 		if (player == 0)
 		{
-			printf("a : ");
+			printf("A : ");
 			player = 1;
 		}
-	
-		else
+		else if (player == 1)
 		{
-			printf("b : ");
+			printf("B : ");
 			player = 0;
 		}
-			
-			scanf("%d", &input);
-			total += input;
-			printf("=> %d\n", total);
-		
-
-		if (total >= 31)
+		scanf("%d", &input);
+		total += input;
+		printf("=> %d\n", total);
+	}
+	if(total >= 31)
+	{
+		if (player == 1)
 		{
-			break;
+			printf("Bê°€ ìŠ¹ë¦¬í•˜ì˜€ìŠµë‹ˆë‹¤.\n");
+		}
+		else
+		{
+			printf("Aê°€ ìŠ¹ë¦¬í•˜ì˜€ìŠµë‹ˆë‹¤.\n");
 		}
 	}
-	printf("oo°¡ ÀÌ°å½À´Ï´Ù!");
 	return 0;
 }
+
 
 
 
